@@ -1,0 +1,34 @@
+[
+    {
+        "customer_Id": 9000,
+        "product_Id": 1,
+        "isValid": true,
+        "status": 200,
+        "expectedStatus": 200,
+        "metaInfo": {
+            "categoryId": 3216,
+            "segmentId": 321,
+            "keywords": "foo, bar"
+        }
+    },
+    {
+        "customer_Id": 9002,
+        "product_Id": 2,
+        "isValid": true,
+        "status": 500,
+        "expectedStatus": 500,
+        "metaInfo": null
+    },    
+    {
+        "customer_Id": 9003,
+        "product_Id": 3,
+        "isValid": false,
+        "status": "foo",
+        "expectedStatus": "foo",
+        "metaInfo": {
+            "categoryId": 434,
+            "segmentId": 3121,
+            "keywords": "foo, bar"
+        }
+    }
+]
