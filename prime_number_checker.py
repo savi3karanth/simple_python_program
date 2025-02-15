@@ -1,13 +1,14 @@
 def is_prime(num):
     if num == 2:
-        return False
-    if num == 1:
         return True
-    
+    if num == 1:
+        return False
+ 
     for i in range(2, num):
         if num % i == 0:
             return False
+ 
     return True
 
-for i in range(1, 10):
-    print(f"{i} is {is_prime(i)}")
+print(is_prime(10))
+print(is_prime(11))
